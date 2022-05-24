@@ -8,7 +8,7 @@ html {
   --eton-blue: #94c9a9ff;
 }
 body {
-  background-color: var(--cultured);
+  background-color: var(--eton-blue);
   color: var(--dark-purple);
   margin: 0;
 }
@@ -19,4 +19,7 @@ h1 {
   margin: 0;
   padding: 20px;
   color: var(--cultured);
+}
+main {
+  margin: 1rem 2rem;
 }
