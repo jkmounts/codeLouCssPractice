@@ -18,5 +18,8 @@ body {
 h1 {
   margin: 0;
   padding: 20px;
-  color: var(--cultured);
+  background-image: linear-gradient(#0c6291ff, #f97068ff);
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-size: 48px;
 }
