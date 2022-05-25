@@ -20,3 +20,6 @@ h1 {
   padding: 20px;
   color: var(--cultured);
 }
+img {
+  width: 200px;
+}
