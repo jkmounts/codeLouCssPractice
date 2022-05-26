@@ -14,9 +14,14 @@ body {
 }
 #main-header {
   background-color: var(--dark-purple);
+  
+
 }
 h1 {
   margin: 0;
   padding: 20px;
-  color: var(--cultured);
+  color: magenta;
+  font-family: 'Roboto', sans-serif;  
+  font: italic bold 30px Roboto , serif;
+  text-shadow: 2px 2px blue;
 }
