@@ -24,3 +24,6 @@ h1 {
   padding: 20px;
   color: var(--cultured);
 }
+ul {
+  list-style-type: none;
+}
