@@ -25,9 +25,13 @@ main {
 article {
   border: 1px solid;
   border-radius: 2.5%;
+  padding: 0 1em;
 }
 article h2 {
   text-decoration: underline;
+}
+article header {
+  padding: 1em 1em 0 1em;
 }
 article .info {
   line-height: 0;
