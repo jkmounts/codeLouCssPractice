@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');
+
 html {
   /* Colors generated with http://www.coolors.co */
   /* CSS HEX */
@@ -12,11 +14,47 @@ body {
   color: var(--dark-purple);
   margin: 0;
 }
+main {
+  padding: 2em;
+}
 #main-header {
+  font-family: Blaka, Helvetica;
+  font-size: 5em;
   background-color: var(--dark-purple);
+}
+article {
+  border: 1px solid;
+  border-radius: 2.5%;
+  padding: 0 1em;
+}
+article h2 {
+  text-decoration: underline;
+}
+article header {
+  padding: 1em 1em 0 1em;
+}
+article .info {
+  line-height: 0;
+}
+article img {
+  border-radius: 50%;
+  width: 65px;
+  height: auto;
 }
 h1 {
   margin: 0;
   padding: 20px;
   color: var(--cultured);
+}
+ul {
+  list-style-type: none;
+}
+nav a {
+  color: var(--bittersweet);
+}
+nav a:hover {
+  color: var(--eton-blue);
+}
+footer {
+  font-size: .75em;
 }
