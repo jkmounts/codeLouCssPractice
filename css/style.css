@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');
+
 html {
   /* Colors generated with http://www.coolors.co */
   /* CSS HEX */
@@ -13,6 +15,7 @@ body {
   margin: 0;
 }
 #main-header {
+  font-family: Blaka, Helvetica;
   font-size: 5em;
   background-color: var(--dark-purple);
 }
