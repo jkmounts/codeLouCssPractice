@@ -27,3 +27,9 @@ h1 {
 ul {
   list-style-type: none;
 }
+nav a {
+  color: var(--bittersweet);
+}
+nav a:hover {
+  color: var(--eton-blue);
+}
