@@ -29,6 +29,9 @@ article {
 article h2 {
   text-decoration: underline;
 }
+article .info {
+  line-height: 0;
+}
 h1 {
   margin: 0;
   padding: 20px;
