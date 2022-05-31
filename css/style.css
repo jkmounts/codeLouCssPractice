@@ -13,6 +13,7 @@ body {
   margin: 0;
 }
 #main-header {
+  font-size: 5em;
   background-color: var(--dark-purple);
 }
 h1 {
