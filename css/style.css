@@ -13,7 +13,6 @@ body {
   padding: 10px 20px 10px 20px;
   margin: 0;
 }
-
 article {
   border-style: solid;
   border-color: var(--dark-purple);
@@ -40,11 +39,14 @@ main {
 a {
   color: var(--bittersweet)
 }
-
 a:visited {
   color: var(--eton-blue)
 }
-
 a:hover {
   color: var(--dark-purple)
+}
+img {
+  width: 200px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
