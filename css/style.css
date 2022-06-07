@@ -68,6 +68,10 @@ ul {
   margin: 0px;
   padding: 1rem;
 }
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
 li {
   padding: 0.2rem;
 }
@@ -83,4 +87,23 @@ footer {
 }
 p {
   margin: 0;
+}
+@media screen and (min-width: 700px) {
+  #main-header {
+    display: flex;
+    background-image: linear-gradient(#0c6291ff, #f97068ff);
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav {
+    flex: 1;
+  }
+  nav ul {
+    justify-content: space-around;
+  }
+  nav ul li a {
+    color: white;
+  }
+}
+@media screen and (min-width: 977px) {
 }
