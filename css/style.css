@@ -46,6 +46,9 @@ h1 {
   color: magenta;
   text-shadow: 2px 2px blue;
 }
+h2 {
+  margin: 0;
+}
 a {
   color: var(--bittersweet)
 }
@@ -78,4 +81,7 @@ footer {
 }
 .article-content {
   overflow: hidden;
+}
+p {
+  margin: 0;
 }
