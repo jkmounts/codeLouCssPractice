@@ -10,10 +10,20 @@ html {
 body {
   background-color: var(--eton-blue);
   color: var(--dark-purple);
+  padding: 10px 20px 10px 20px;
   margin: 0;
 }
+
+article {
+  border-style: solid;
+  border-color: var(--dark-purple);
+  border-width: 2px;
+  border-radius: 7px;
+}
 #main-header {
-  background-color: var(--dark-purple);
+  background-color: var(--sapphire-blue);
+  font-family:'Times New Roman', Times, serif;
+  font-size: larger;
 }
 h1 {
   margin: 0;
@@ -26,4 +36,15 @@ main {
   color: white;
   text-shadow: 2px 2px 4px black;
   font-size: 48px;
+}
+a {
+  color: var(--bittersweet)
+}
+
+a:visited {
+  color: var(--eton-blue)
+}
+
+a:hover {
+  color: var(--dark-purple)
 }
